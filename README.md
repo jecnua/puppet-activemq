@@ -1,10 +1,8 @@
 # puppet-activemq
 
-*NOTE* This is a fork with the following changes:
-- The path to download the archive has been changes to allow the use of newer
-version
-
-
+**NOTE:** This is a fork with the following changes:
+- The path to download the archive has been changed to allow the use of newer
+version of activemq (the url format changed)
 
 ## Overview
 This is a simple puppet module for deploying an Apache ActiveMQ server
