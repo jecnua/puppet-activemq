@@ -1,5 +1,11 @@
 # puppet-activemq
 
+*NOTE* This is a fork with the following changes:
+- The path to download the archive has been changes to allow the use of newer
+version
+
+
+
 ## Overview
 This is a simple puppet module for deploying an Apache ActiveMQ server
 
@@ -25,7 +31,7 @@ You can also install activemq from a yum repo
       distribution => 'jre',
     } ->
     class { 'epel': } ->
-    
+
     yumrepo { 'puppetlabs-deps':
       descr    => 'Puppet Labs Dependencies El 6 - $basearch',
       baseurl  => 'http://yum.puppetlabs.com/el/6/dependencies/$basearch',
@@ -33,7 +39,7 @@ You can also install activemq from a yum repo
       enabled  => 1,
       gpgcheck => 1,
     } ->
-    
+
     class { 'activemq':
       package_type => 'rpm',
     }
