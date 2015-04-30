@@ -1,0 +1,15 @@
+{
+  "name": "maestrodev-activemq",
+  "version": "2.0.4",
+  "author": "maestrodev",
+  "summary": "Install and manage Apache ActiveMQ",
+  "license": "Apache License, Version 2.0",
+  "source": "http://github.com/maestrodev/puppet-activemq.git",
+  "project_page": "http://github.com/maestrodev/puppet-activemq",
+  "issues_url": "https://github.com/maestrodev/puppet-activemq/issues",
+  "description": "Install Apache ActiveMQ and manage the service",
+  "dependencies": [
+    {"name":"maestrodev/wget","version_requirement":">=1.0.0"},
+    {"name":"puppetlabs/stdlib"}
+  ]
+}
